@@ -1,6 +1,6 @@
 # Wallet Collector
 
-## collect.walletsplitter.com
+## [collect.walletsplitter.com](https://collect.walletsplitter.com/)
 
 ![square](https://user-images.githubusercontent.com/19412160/162107259-b01d142f-01f7-4840-8e5b-222c52dc48c6.png)
 
