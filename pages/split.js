@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { ethers } from "ethers";
 import Banner from "../components/banner";
 import UserInfoCard from "../components/userInfoCard";
-import SplitterAddressCard from "../components/splitterAddressCard";
+import Pool from "../components/pool";
 import SEO from "../components/seo";
 import Footer from "../components/footer";
 
@@ -47,10 +47,10 @@ export default function Split() {
         <main className={styles.main}>
           {isConnected ? (
             <>
-              <h1 className={styles.title}>Split Existing</h1>
+              <h1 className={styles.title}>Collect</h1>
               <div className={styles.grid}>
                 <UserInfoCard provider={provider} />
-                <SplitterAddressCard provider={provider} />
+                <Pool provider={provider} />
               </div>
             </>
           ) : (

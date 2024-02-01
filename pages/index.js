@@ -10,7 +10,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-        WalletCollector
+        Wallet Collector
         </h1>
 
         <p className={styles.code}>collectProtocol()</p>
@@ -21,7 +21,7 @@ export default function Home() {
           <Link href="/split" passHref>
             <a className={styles.card}>
               <h2 className={styles.underline}>Collect &rarr;</h2>
-              <p>Call protocol fees from ETCSwap V3.</p>
+              <p>Collect protocol fees from ETCSwap V3.</p>
             </a>
           </Link>
         </div>
